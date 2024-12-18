@@ -1,0 +1,43 @@
+instalacja paczek
+pacman-----------------------------------------
+sudo pacman -Syu
+sudo pacman -S curl iproute2 net-tools traceroute networkmanager ifstat util-linux iputils
+
+
+apt---------------------------------------------------------------------------------
+sudo apt update
+sudo apt install curl iproute2 net-tools traceroute network-manager ifstat util-linux iputils-ping
+
+
+
+dnf-----------------------------------------------
+sudo pacman -Syu
+sudo pacman -S curl iproute2 net-tools traceroute networkmanager ifstat util-linux iputils
+
+
+yum-------------------------------------------------------
+sudo yum install curl iproute traceroute NetworkManager ifstat util-linux iputils
+
+
+zypper--------------------------------------------------------
+sudo zypper install curl iproute2 net-tools traceroute network-manager ifstat util-linux iputils
+
+
+opcjonalne--------------------------------------------------
+pip3 install speedtest-cli
+
+-------------------------------------------------------------------
+
+przejdź do lokalizacji z plikiem skrypt.sh i nadaj mu uprawnienia:
+
+sudo chmod +x skrypt.sh
+
+-----------------------
+aby uruchomić
+./skrypt.sh
+albo
+sudo ./skrypt.sh
+
+
+
+baw się dobrze
